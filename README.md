@@ -1,4 +1,4 @@
-# Offline Dictionary App
+# Python Offline Dictionary App
 ## Run
 
 ```
