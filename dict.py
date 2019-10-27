@@ -35,15 +35,18 @@ def translate(w):
     return "The word doesn't exist in our database"
 
 
-word=input("Enter word : ")
+# Main fucntion
+if __name__ == "__main__":
 
-out = (translate(word))
+  word=input("Enter word : ")
 
-i=1
-if type(out)==list:
-  for item in out:
-    print("{} . {}".format(i, item))
-    i = i+1
-else:
-  print(out)
+  out = (translate(word))
+
+  i=1
+  if type(out)==list:
+    for item in out:
+      print("{} . {}".format(i, item))
+      i = i+1
+  else:
+    print(out)
 
